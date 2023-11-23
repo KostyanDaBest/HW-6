@@ -14,7 +14,6 @@ public class ATM {
             this.hundreds=  hundreds + this.hundreds;
         }
 
-        // Функция для снятия денег
         public boolean Snyatie (int SumToVlojit) {
             int ostavshiesyaKupyri = SumToVlojit;
             int twentiesToVlojit = Math.min(ostavshiesyaKupyri / 20, twenties);
